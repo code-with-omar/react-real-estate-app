@@ -1,0 +1,30 @@
+.hero-wrapper{
+    color:white;
+    position: relative;
+    margin-bottom: 2rem;
+    background-color: black;
+}
+.hero-container{
+    display: flex;
+    row-gap: 1rem;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+
+}
+.hero-right{
+    display: flex;
+    row-gap: 1rem;
+    flex-wrap: wrap;
+}
+.image-container{
+    width: 30rem;
+    height: 35rem;
+    overflow: hidden;
+    border-radius: 15rem 15rem 0 0;
+    border: 8px solid rgb(255, 255, 255,0.12);
+}   
+.image-container img{
+    width: 100%;
+    height: 100%;
+}
