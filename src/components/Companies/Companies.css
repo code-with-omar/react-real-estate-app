@@ -1,0 +1,13 @@
+.companies-wrapper{
+    margin-top: 1rem;
+}
+.companies-container {
+    display: flex;
+    row-gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.companies-container>img{
+    width: 9rem;
+}

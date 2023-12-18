@@ -9,7 +9,7 @@ const Header = () => {
                     <img src="/src/images/logo.png" alt="logo" width={100} />
                     <div className='header-menu flexCenter'>
                         <a href="">Residencies</a>
-                        <a href="">Our Valu               xe</a>
+                        <a href="">Our Value</a>
                         <a href="">Contact Us</a>
                         <a href="">Get Started</a>
                         <button className='button'>
