@@ -1,0 +1,22 @@
+.res-container{
+    position: relative;
+    overflow: hidden;
+}
+.res-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+}
+.orangeText {
+    color: orange;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.primaryText {
+    color: #1f3e72;
+    font-weight: 700;
+    font-size: 2rem;
+}
