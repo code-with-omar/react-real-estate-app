@@ -6,20 +6,22 @@ const Card = (props) => {
     const { card } = props;
     console.log(card)
     return (
-
-        <Swiper>
-            {card.map((data, i) => (
-                <SwiperSlide key={i}>
-                    <div key={data.image} className='res-card'>
-                        <img src={data.image} alt="" />
-                        <span className='res-price' style={{ color: 'orange' }}>$</span>
-                        <span className=''>{data.price}</span>
-                        <span>{data.name}</span>
-                        <span>{data.detail}</span>
-                    </div>
-                </SwiperSlide>
-            ))}
-        </Swiper>
+        <div>
+            hello
+        </div>
+        // <Swiper>
+        //     {card.map((data, i) => (
+        //         <SwiperSlide key={i}>
+        //             <div key={data.image} className='res-card'>
+        //                 <img src={data.image} alt="" />
+        //                 <span className='res-price' style={{ color: 'orange' }}>$</span>
+        //                 <span className=''>{data.price}</span>
+        //                 <span>{data.name}</span>
+        //                 <span>{data.detail}</span>
+        //             </div>
+        //         </SwiperSlide>
+        //     ))}
+        // </Swiper>
 
     );
 };
